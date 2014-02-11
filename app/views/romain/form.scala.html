@@ -1,0 +1,34 @@
+@(formulaire: Form[NombreDecimal])(reponse: Html)
+
+@import helper._
+@import helper.twitterBootstrap._
+
+@title = {
+    décimal en romain
+}
+
+@main(title, nav = "romain") {
+
+    @if(formulaire.hasErrors) {
+        <div class="alert-message error">
+            <p>Corrigez cette erreur que je ne saurais voir!<br>
+	      Par de pareils objets les âmes sont blessées,<br>
+	      Et cela fait venir de coupables pensées!</p>
+        </div>
+    }
+
+    @reponse
+
+    @helper.form(action = routes.ConvEnRomain.submit) {
+	@inputText(
+	    formulaire("valeur"),
+	    '_label -> "Valeur",
+	    '_help  -> "Entrez un entier > 0"
+	)
+        
+        <div class="actions">
+            <input type="submit" class="btn primary" value="Convertir">
+        </div>
+    }
+
+}

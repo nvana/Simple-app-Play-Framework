@@ -1,0 +1,166 @@
+@(formulaire: Form[NombreRomain])(reponse: Html)
+
+@import helper._
+@import helper.twitterBootstrap._
+
+@title = {
+    Saisissez vos résultats à la belotte ! 
+}
+
+@main(title, nav = "decimal") {
+
+    @if(formulaire.hasErrors) {
+        <div class="alert-message error">
+            <p>Corrigez cette erreur que je ne saurais voir!<br>
+	      Par de pareils objets les âmes sont blessées,<br>
+	      Et cela fait venir de coupables pensées!</p>
+        </div>
+    }
+
+    @reponse
+
+    @helper.form(action = routes.ConvEnDecimal.submit) {
+    <table BORDER="1 solid black">
+        <tr>
+        <td>
+            <p> Couleur </p>
+        </td>
+            <td>
+	@inputText(
+	    formulaire("As"),
+	    '_label -> "As"
+	)
+            </td>
+            <td>
+
+    @inputText(
+        formulaire("Dix"),
+        '_label -> "Dix"
+      
+    )
+        </td>
+            <td>
+
+    @inputText(
+        formulaire("Roi"),
+        '_label -> "Roi"
+      
+    )
+    </td>
+            <td>
+
+    @inputText(
+        formulaire("Dame"),
+        '_label -> "Dame"
+       
+    )
+    </td>
+            <td>
+    @inputText(
+        formulaire("Valet"),
+        '_label -> "Valet"
+      
+    )
+    </td>
+            <td>
+
+    @inputText(
+        formulaire("9"),
+        '_label -> "9"
+    
+    )
+    </td>
+            <td>
+
+    @inputText(
+        formulaire("8"),
+        '_label -> "8"
+     
+    )
+    </td>
+            <td>
+
+    @inputText(
+        formulaire("7"),
+        '_label -> "7"
+      
+    )
+    </td>
+            
+        </tr>
+
+          <tr>
+        <td>
+            <p> Atout </p>
+        </td>
+            <td>
+    @inputText(
+        formulaire("As"),
+        '_label -> "As"
+    )
+            </td>
+            <td>
+
+    @inputText(
+        formulaire("Dix"),
+        '_label -> "Dix"
+      
+    )
+        </td>
+            <td>
+
+    @inputText(
+        formulaire("Roi"),
+        '_label -> "Roi"
+      
+    )
+    </td>
+            <td>
+
+    @inputText(
+        formulaire("Dame"),
+        '_label -> "Dame"
+       
+    )
+    </td>
+            <td>
+    @inputText(
+        formulaire("Valet"),
+        '_label -> "Valet"
+      
+    )
+    </td>
+            <td>
+
+    @inputText(
+        formulaire("9"),
+        '_label -> "9"
+    
+    )
+    </td>
+            <td>
+
+    @inputText(
+        formulaire("8"),
+        '_label -> "8"
+     
+    )
+    </td>
+            <td>
+
+    @inputText(
+        formulaire("7"),
+        '_label -> "7"
+      
+    )
+    </td>
+            
+        </tr>
+    </table>
+        
+        <div class="actions">
+            <input type="submit" class="btn primary" value="Convertir">
+        </div>
+    }
+
+}
