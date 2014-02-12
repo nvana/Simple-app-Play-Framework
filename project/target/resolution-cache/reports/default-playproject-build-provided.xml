@@ -9,7 +9,11 @@
 		extra-scalaVersion="2.10"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+<<<<<<< HEAD
 		date="20140212211616"/>
+=======
+		date="20140212212720"/>
+>>>>>>> 6a57673923a2a6bf76cabf02457638b20a8a10b9
 	<dependencies>
 		<module organisation="org.scala-sbt" name="sbt">
 			<revision name="0.13.0" status="release" pubdate="20130823015127" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">

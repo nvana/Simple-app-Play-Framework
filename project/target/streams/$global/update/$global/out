@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/Nicolas/Documents/playProject/project/}playproject-build...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/Oriana/Documents/playProject/project/}playproject-build...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: default#playproject-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -2860,7 +2860,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#playproject-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#playproject-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#playproject-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->optional(default)][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in C:\Users\Nicolas\Documents\playProject\project\target\resolution-cache\default\playproject-build\scala_2.10\sbt_0.13\0.1-SNAPSHOT\resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in C:\Users\Oriana\Documents\playProject\project\target\resolution-cache\default\playproject-build\scala_2.10\sbt_0.13\0.1-SNAPSHOT\resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#sbt-plugin;2.2.1!sbt-plugin.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#sbt-link;2.2.1!sbt-link.jar[0m
@@ -2938,6 +2938,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.0!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.2!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
+<<<<<<< HEAD
 [0m[[0mdebug[0m] [0m:: resolution report :: resolve 1720ms :: artifacts dl 64ms[0m
 [0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT compile produced in C:\Users\Nicolas\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT runtime produced in C:\Users\Nicolas\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-runtime.xml[0m
@@ -2953,4 +2954,21 @@
 [0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT pom produced in C:\Users\Nicolas\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT scala-tool produced in C:\Users\Nicolas\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-scala-tool.xml[0m
 [0m[[0mdebug[0m] [0m	resolve done (1720ms resolve - 64ms download)[0m
+=======
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 13796ms :: artifacts dl 547ms[0m
+[0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT compile produced in C:\Users\Oriana\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT runtime produced in C:\Users\Oriana\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT test produced in C:\Users\Oriana\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT provided produced in C:\Users\Oriana\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT optional produced in C:\Users\Oriana\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT compile-internal produced in C:\Users\Oriana\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\Oriana\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT test-internal produced in C:\Users\Oriana\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT plugin produced in C:\Users\Oriana\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT sources produced in C:\Users\Oriana\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT docs produced in C:\Users\Oriana\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT pom produced in C:\Users\Oriana\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT scala-tool produced in C:\Users\Oriana\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (13796ms resolve - 547ms download)[0m
+>>>>>>> 6a57673923a2a6bf76cabf02457638b20a8a10b9
 [0m[[0minfo[0m] [0mDone updating.[0m
