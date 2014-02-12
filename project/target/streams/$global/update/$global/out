@@ -2938,7 +2938,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.0!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.2!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1661ms :: artifacts dl 58ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1637ms :: artifacts dl 57ms[0m
 [0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT compile produced in C:\Users\Nicolas\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT runtime produced in C:\Users\Nicolas\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT test produced in C:\Users\Nicolas\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-test.xml[0m
@@ -2952,5 +2952,5 @@
 [0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT docs produced in C:\Users\Nicolas\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT pom produced in C:\Users\Nicolas\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT scala-tool produced in C:\Users\Nicolas\Documents\playProject\project\target\resolution-cache\reports\default-playproject-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1661ms resolve - 58ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (1637ms resolve - 57ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

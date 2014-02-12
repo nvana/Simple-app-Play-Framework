@@ -2,70 +2,14 @@
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(C:\Users\Nicolas\Documents\playProject\target\scala-2.10\src_managed\main\views\html\hello.template.scala, C:\Users\Nicolas\Documents\playProject\target\scala-2.10\src_managed\main\views\html\main.template.scala, C:\Users\Nicolas\Documents\playProject\target\scala-2.10\src_managed\main\controllers\routes.java, C:\Users\Nicolas\Documents\playProject\target\scala-2.10\src_managed\main\routes_reverseRouting.scala, C:\Users\Nicolas\Documents\playProject\target\scala-2.10\src_managed\main\views\html\index.template.scala, C:\Users\Nicolas\Documents\playProject\target\scala-2.10\src_managed\main\routes_routing.scala, C:\Users\Nicolas\Documents\playProject\app\controllers\Application.java)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mModified external sources: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(C:\Users\Nicolas\Documents\playProject\target\scala-2.10\src_managed\main\views\html\hello.template.scala, C:\Users\Nicolas\Documents\playProject\target\scala-2.10\src_managed\main\views\html\main.template.scala, C:\Users\Nicolas\Documents\playProject\target\scala-2.10\src_managed\main\controllers\routes.java, C:\Users\Nicolas\Documents\playProject\target\scala-2.10\src_managed\main\routes_reverseRouting.scala, C:\Users\Nicolas\Documents\playProject\target\scala-2.10\src_managed\main\views\html\index.template.scala, C:\Users\Nicolas\Documents\playProject\target\scala-2.10\src_managed\main\routes_routing.scala, C:\Users\Nicolas\Documents\playProject\app\controllers\Application.java)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\Nicolas\Documents\playProject\target\scala-2.10\src_managed\main\views\html\hello.template.scala, C:\Users\Nicolas\Documents\playProject\target\scala-2.10\src_managed\main\views\html\main.template.scala, C:\Users\Nicolas\Documents\playProject\target\scala-2.10\src_managed\main\controllers\routes.java, C:\Users\Nicolas\Documents\playProject\target\scala-2.10\src_managed\main\routes_reverseRouting.scala, C:\Users\Nicolas\Documents\playProject\target\scala-2.10\src_managed\main\views\html\index.template.scala, C:\Users\Nicolas\Documents\playProject\target\scala-2.10\src_managed\main\routes_routing.scala, C:\Users\Nicolas\Documents\playProject\app\controllers\Application.java)[0m
-[0m[[0mdebug[0m] [0mRecompiling all 7 sources: invalidated sources (7) exceeded 50.0% of all sources[0m
-[0m[[0minfo[0m] [0mCompiling 5 Scala sources and 2 Java sources to C:\Users\Nicolas\Documents\playProject\target\scala-2.10\classes...[0m
-[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.2[0m
-[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.2[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 6c8eeafc, interfacing (CompilerInterface) with Scala compiler version 2.10.2[0m
-[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
-[0m[[0mdebug[0m] [0m	-deprecation[0m
-[0m[[0mdebug[0m] [0m	-unchecked[0m
-[0m[[0mdebug[0m] [0m	-encoding[0m
-[0m[[0mdebug[0m] [0m	utf8[0m
-[0m[[0mdebug[0m] [0m	-bootclasspath[0m
-[0m[[0mdebug[0m] [0m	C:\Program Files\Java\jdk1.7.0_51\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_51\jre\classes;C:\play-2.2.1\framework\.\sbt\boot\scala-2.10.2\lib\scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	C:\Users\Nicolas\Documents\playProject\target\scala-2.10\classes;C:\play-2.2.1\repository\local\com.typesafe.play\play_2.10\2.2.1\jars\play_2.10.jar;C:\play-2.2.1\repository\local\com.typesafe.play\sbt-link\2.2.1\jars\sbt-link.jar;C:\play-2.2.1\repository\local\org.javassist\javassist\3.18.0-GA\bundles\javassist.jar;C:\play-2.2.1\repository\local\com.typesafe.play\play-exceptions\2.2.1\jars\play-exceptions.jar;C:\play-2.2.1\repository\local\com.typesafe.play\templates_2.10\2.2.1\jars\templates_2.10.jar;C:\play-2.2.1\repository\local\com.github.scala-incubator.io\scala-io-file_2.10\0.4.2\jars\scala-io-file_2.10.jar;C:\play-2.2.1\repository\local\com.github.scala-incubator.io\scala-io-core_2.10\0.4.2\jars\scala-io-core_2.10.jar;C:\play-2.2.1\repository\local\com.jsuereth\scala-arm_2.10\1.3\jars\scala-arm_2.10.jar;C:\play-2.2.1\repository\local\com.typesafe.play\play-iteratees_2.10\2.2.1\jars\play-iteratees_2.10.jar;C:\play-2.2.1\repository\local\org.scala-stm\scala-stm_2.10\0.7\jars\scala-stm_2.10.jar;C:\play-2.2.1\repository\local\com.typesafe\config\1.0.2\bundles\config.jar;C:\play-2.2.1\repository\local\com.typesafe.play\play-json_2.10\2.2.1\jars\play-json_2.10.jar;C:\play-2.2.1\repository\local\com.typesafe.play\play-functional_2.10\2.2.1\jars\play-functional_2.10.jar;C:\play-2.2.1\repository\local\com.typesafe.play\play-datacommons_2.10\2.2.1\jars\play-datacommons_2.10.jar;C:\play-2.2.1\repository\local\joda-time\joda-time\2.2\jars\joda-time.jar;C:\play-2.2.1\repository\local\org.joda\joda-convert\1.3.1\jars\joda-convert.jar;C:\play-2.2.1\repository\local\com.fasterxml.jackson.core\jackson-annotations\2.2.2\jars\jackson-annotations.jar;C:\play-2.2.1\repository\local\com.fasterxml.jackson.core\jackson-core\2.2.2\jars\jackson-core.jar;C:\play-2.2.1\repository\local\com.fasterxml.jackson.core\jackson-databind\2.2.2\jars\jackson-databind.jar;C:\play-2.2.1\framework\.\sbt\boot\scala-2.10.2\lib\scala-reflect.jar;C:\play-2.2.1\repository\local\io.netty\netty\3.7.0.Final\bundles\netty.jar;C:\play-2.2.1\repository\local\com.typesafe.netty\netty-http-pipelining\1.1.2\jars\netty-http-pipelining.jar;C:\play-2.2.1\repository\local\org.slf4j\slf4j-api\1.7.5\jars\slf4j-api.jar;C:\play-2.2.1\repository\local\org.slf4j\jul-to-slf4j\1.7.5\jars\jul-to-slf4j.jar;C:\play-2.2.1\repository\local\org.slf4j\jcl-over-slf4j\1.7.5\jars\jcl-over-slf4j.jar;C:\play-2.2.1\repository\local\ch.qos.logback\logback-core\1.0.13\jars\logback-core.jar;C:\play-2.2.1\repository\local\ch.qos.logback\logback-classic\1.0.13\jars\logback-classic.jar;C:\play-2.2.1\repository\local\com.typesafe.akka\akka-actor_2.10\2.2.0\jars\akka-actor_2.10.jar;C:\play-2.2.1\repository\local\com.typesafe.akka\akka-slf4j_2.10\2.2.0\bundles\akka-slf4j_2.10.jar;C:\play-2.2.1\repository\local\org.apache.commons\commons-lang3\3.1\jars\commons-lang3.jar;C:\play-2.2.1\repository\local\com.ning\async-http-client\1.7.18\jars\async-http-client.jar;C:\play-2.2.1\repository\local\oauth.signpost\signpost-core\1.2.1.2\jars\signpost-core.jar;C:\play-2.2.1\repository\local\commons-codec\commons-codec\1.3\jars\commons-codec.jar;C:\play-2.2.1\repository\local\oauth.signpost\signpost-commonshttp4\1.2.1.2\jars\signpost-commonshttp4.jar;C:\play-2.2.1\repository\local\org.apache.httpcomponents\httpcore\4.0.1\jars\httpcore.jar;C:\play-2.2.1\repository\local\org.apache.httpcomponents\httpclient\4.0.1\jars\httpclient.jar;C:\play-2.2.1\repository\local\commons-logging\commons-logging\1.1.1\jars\commons-logging.jar;C:\play-2.2.1\repository\local\xerces\xercesImpl\2.11.0\jars\xercesImpl.jar;C:\play-2.2.1\repository\local\xml-apis\xml-apis\1.4.01\jars\xml-apis.jar;C:\play-2.2.1\repository\local\javax.transaction\jta\1.1\jars\jta.jar;C:\play-2.2.1\repository\local\com.typesafe.play\play-java_2.10\2.2.1\jars\play-java_2.10.jar;C:\play-2.2.1\repository\local\org.yaml\snakeyaml\1.12\bundles\snakeyaml.jar;C:\play-2.2.1\repository\local\org.hibernate\hibernate-validator\5.0.1.Final\jars\hibernate-validator.jar;C:\play-2.2.1\repository\local\javax.validation\validation-api\1.1.0.Final\jars\validation-api.jar;C:\play-2.2.1\repository\local\org.jboss.logging\jboss-logging\3.1.1.GA\jars\jboss-logging.jar;C:\play-2.2.1\repository\local\com.fasterxml\classmate\0.8.0\bundles\classmate.jar;C:\play-2.2.1\repository\local\org.springframework\spring-context\3.2.3.RELEASE\jars\spring-context.jar;C:\play-2.2.1\repository\local\org.springframework\spring-core\3.2.3.RELEASE\jars\spring-core.jar;C:\play-2.2.1\repository\local\org.springframework\spring-beans\3.2.3.RELEASE\jars\spring-beans.jar;C:\play-2.2.1\repository\local\org.reflections\reflections\0.9.8\jars\reflections.jar;C:\play-2.2.1\repository\local\com.google.guava\guava\14.0.1\bundles\guava.jar;C:\play-2.2.1\repository\local\com.google.code.findbugs\jsr305\2.0.1\jars\jsr305.jar;C:\play-2.2.1\repository\local\javax.servlet\javax.servlet-api\3.0.1\jars\javax.servlet-api.jar[0m
-[0m[[31merror[0m] [0mC:\Users\Nicolas\Documents\playProject\app\controllers\Application.java:16: illegal start of type[0m
-[0m[[31merror[0m] [0m<<<<<<< HEAD[0m
-[0m[[31merror[0m] [0m^[0m
-[0m[[31merror[0m] [0mC:\Users\Nicolas\Documents\playProject\app\controllers\Application.java:18: identifier expected but `;' found.[0m
-[0m[[31merror[0m] [0m         @Required public Integer as;[0m
-[0m[[31merror[0m] [0m                                    ^[0m
-[0m[[31merror[0m] [0mC:\Users\Nicolas\Documents\playProject\app\controllers\Application.java:23: illegal start of type[0m
-[0m[[31merror[0m] [0m=======[0m
-[0m[[31merror[0m] [0m^[0m
-[0m[[31merror[0m] [0mC:\Users\Nicolas\Documents\playProject\app\controllers\Application.java:24: identifier expected but `;' found.[0m
-[0m[[31merror[0m] [0m         @Required public Integer as;[0m
-[0m[[31merror[0m] [0m                                    ^[0m
-[0m[[31merror[0m] [0mC:\Users\Nicolas\Documents\playProject\app\controllers\Application.java:28: illegal start of type[0m
-[0m[[31merror[0m] [0m>>>>>>> 6a57673923a2a6bf76cabf02457638b20a8a10b9[0m
-[0m[[31merror[0m] [0m^[0m
-[0m[[31merror[0m] [0mC:\Users\Nicolas\Documents\playProject\app\controllers\Application.java:29: identifier expected but `;' found.[0m
-[0m[[31merror[0m] [0m        public Integer dame;[0m
-[0m[[31merror[0m] [0m                           ^[0m
-[0m[[31merror[0m] [0mC:\Users\Nicolas\Documents\playProject\app\controllers\Application.java:65: illegal start of type[0m
-[0m[[31merror[0m] [0m=======[0m
-[0m[[31merror[0m] [0m^[0m
-[0m[[31merror[0m] [0mC:\Users\Nicolas\Documents\playProject\app\controllers\Application.java:66: identifier expected but `}' found.[0m
-[0m[[31merror[0m] [0m    }[0m
-[0m[[31merror[0m] [0m    ^[0m
-[0m[[31merror[0m] [0mC:\Users\Nicolas\Documents\playProject\app\controllers\Application.java:71: illegal start of type declaration[0m
-[0m[[31merror[0m] [0m    public static Result sayHello() {[0m
-[0m[[31merror[0m] [0m                         ^[0m
-[0m[[31merror[0m] [0mC:\Users\Nicolas\Documents\playProject\app\controllers\Application.java:84: eof expected but `}' found.[0m
-[0m[[31merror[0m] [0m}[0m
-[0m[[31merror[0m] [0m^[0m
-[0m[[31merror[0m] [0mC:\Users\Nicolas\Documents\playProject\conf\routes: illegal start of type declaration[0m
-[0m[[31merror[0m] [0mC:\Users\Nicolas\Documents\playProject\conf\routes: Invalid literal number[0m
-[0m[[31merror[0m] [0mC:\Users\Nicolas\Documents\playProject\conf\routes: expected class or object definition[0m
-[0m[[31merror[0m] [0mC:\Users\Nicolas\Documents\playProject\conf\routes: expected class or object definition[0m
-[0m[[31merror[0m] [0mC:\Users\Nicolas\Documents\playProject\conf\routes: expected class or object definition[0m
-[0m[[31merror[0m] [0mC:\Users\Nicolas\Documents\playProject\conf\routes: Invalid literal number[0m
-[0m[[31merror[0m] [0mC:\Users\Nicolas\Documents\playProject\conf\routes: expected class or object definition[0m
-[0m[[31merror[0m] [0mC:\Users\Nicolas\Documents\playProject\conf\routes: expected class or object definition[0m
-[0m[[31merror[0m] [0mC:\Users\Nicolas\Documents\playProject\conf\routes: expected class or object definition[0m
-[0m[[31merror[0m] [0m19 errors found[0m
-[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
-[0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
