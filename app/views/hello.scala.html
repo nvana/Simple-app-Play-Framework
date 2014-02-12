@@ -1,11 +1,12 @@
-@(as: Int, dix: Int, color: String)
+@(as: Int, dix: Int, roi: Int)
 
 @main("Here is the result:") {
     
-    <ul style="color: @if(color != null) { @color } else { inherited }">
+    <ul style="">
        
             <li>As: @as</li>
             <li>Dix: @dix</li>
+            <li>Roi: @roi</li>
         
     </ul>
     

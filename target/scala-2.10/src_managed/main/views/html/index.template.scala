@@ -36,15 +36,6 @@ Seq[Any](format.raw/*1.38*/("""
     
     """),_display_(Seq[Any](/*9.6*/form(action = routes.Application.sayHello, args = 'id -> "helloform")/*9.75*/ {_display_(Seq[Any](format.raw/*9.77*/("""
         
-        """),_display_(Seq[Any](/*11.10*/inputText(
-            field = helloForm("name"),
-            args = '_label -> "What's your name?", 'placeholder -> "World"
-        ))),format.raw/*14.10*/("""
-        
-        """),_display_(Seq[Any](/*16.10*/inputText(
-            field = helloForm("repeat"),
-            args = '_label -> "How many times?", 'size -> 3, 'placeholder -> 10
-        ))),format.raw/*19.10*/("""
         
 <table BORDER="1 solid black">
         <tr>
@@ -52,65 +43,65 @@ Seq[Any](format.raw/*1.38*/("""
             <p> Couleur </p>
         </td>
             <td>
-    """),_display_(Seq[Any](/*27.6*/inputText(
+    """),_display_(Seq[Any](/*18.6*/inputText(
         helloForm("as"),
         '_label -> "As"
-    ))),format.raw/*30.6*/("""
+    ))),format.raw/*21.6*/("""
             </td>
             <td>
 
-    """),_display_(Seq[Any](/*34.6*/inputText(
+    """),_display_(Seq[Any](/*25.6*/inputText(
         helloForm("Dix"),
         '_label -> "Dix"
       
-    ))),format.raw/*38.6*/("""
+    ))),format.raw/*29.6*/("""
         </td>
             <td>
 
-    """),_display_(Seq[Any](/*42.6*/inputText(
+    """),_display_(Seq[Any](/*33.6*/inputText(
         helloForm("Roi"),
         '_label -> "Roi"
       
-    ))),format.raw/*46.6*/("""
+    ))),format.raw/*37.6*/("""
     </td>
             <td>
 
-    """),_display_(Seq[Any](/*50.6*/inputText(
+    """),_display_(Seq[Any](/*41.6*/inputText(
         helloForm("Dame"),
         '_label -> "Dame"
        
-    ))),format.raw/*54.6*/("""
+    ))),format.raw/*45.6*/("""
     </td>
             <td>
-    """),_display_(Seq[Any](/*57.6*/inputText(
+    """),_display_(Seq[Any](/*48.6*/inputText(
         helloForm("Valet"),
         '_label -> "Valet"
       
-    ))),format.raw/*61.6*/("""
+    ))),format.raw/*52.6*/("""
     </td>
             <td>
 
-    """),_display_(Seq[Any](/*65.6*/inputText(
+    """),_display_(Seq[Any](/*56.6*/inputText(
         helloForm("9"),
         '_label -> "9"
     
-    ))),format.raw/*69.6*/("""
+    ))),format.raw/*60.6*/("""
     </td>
             <td>
 
-    """),_display_(Seq[Any](/*73.6*/inputText(
+    """),_display_(Seq[Any](/*64.6*/inputText(
         helloForm("8"),
         '_label -> "8"
      
-    ))),format.raw/*77.6*/("""
+    ))),format.raw/*68.6*/("""
     </td>
             <td>
 
-    """),_display_(Seq[Any](/*81.6*/inputText(
+    """),_display_(Seq[Any](/*72.6*/inputText(
         helloForm("7"),
         '_label -> "7"
       
-    ))),format.raw/*85.6*/("""
+    ))),format.raw/*76.6*/("""
     </td>
             
         </tr>
@@ -120,65 +111,65 @@ Seq[Any](format.raw/*1.38*/("""
             <p> Atout </p>
         </td>
             <td>
-    """),_display_(Seq[Any](/*95.6*/inputText(
+    """),_display_(Seq[Any](/*86.6*/inputText(
         helloForm("AsA"),
         '_label -> "As"
-    ))),format.raw/*98.6*/("""
+    ))),format.raw/*89.6*/("""
             </td>
             <td>
 
-    """),_display_(Seq[Any](/*102.6*/inputText(
+    """),_display_(Seq[Any](/*93.6*/inputText(
         helloForm("DixA"),
         '_label -> "Dix"
       
-    ))),format.raw/*106.6*/("""
+    ))),format.raw/*97.6*/("""
         </td>
             <td>
 
-    """),_display_(Seq[Any](/*110.6*/inputText(
+    """),_display_(Seq[Any](/*101.6*/inputText(
         helloForm("RoiA"),
         '_label -> "Roi"
       
-    ))),format.raw/*114.6*/("""
+    ))),format.raw/*105.6*/("""
     </td>
             <td>
 
-    """),_display_(Seq[Any](/*118.6*/inputText(
+    """),_display_(Seq[Any](/*109.6*/inputText(
         helloForm("DameA"),
         '_label -> "Dame"
        
-    ))),format.raw/*122.6*/("""
+    ))),format.raw/*113.6*/("""
     </td>
             <td>
-    """),_display_(Seq[Any](/*125.6*/inputText(
+    """),_display_(Seq[Any](/*116.6*/inputText(
         helloForm("ValetA"),
         '_label -> "Valet"
       
-    ))),format.raw/*129.6*/("""
+    ))),format.raw/*120.6*/("""
     </td>
             <td>
 
-    """),_display_(Seq[Any](/*133.6*/inputText(
+    """),_display_(Seq[Any](/*124.6*/inputText(
         helloForm("9A"),
         '_label -> "9"
     
-    ))),format.raw/*137.6*/("""
+    ))),format.raw/*128.6*/("""
     </td>
             <td>
 
-    """),_display_(Seq[Any](/*141.6*/inputText(
+    """),_display_(Seq[Any](/*132.6*/inputText(
         helloForm("8A"),
         '_label -> "8"
      
-    ))),format.raw/*145.6*/("""
+    ))),format.raw/*136.6*/("""
     </td>
             <td>
 
-    """),_display_(Seq[Any](/*149.6*/inputText(
+    """),_display_(Seq[Any](/*140.6*/inputText(
         helloForm("7A"),
         '_label -> "7"
       
-    ))),format.raw/*153.6*/("""
+    ))),format.raw/*144.6*/("""
     </td>
             
         </tr>
@@ -189,7 +180,7 @@ Seq[Any](format.raw/*1.38*/("""
             <input type="submit">
         <p>
         
-    """)))})),format.raw/*164.6*/("""
+    """)))})),format.raw/*155.6*/("""
     
 """)))})))}
     }
@@ -203,11 +194,11 @@ Seq[Any](format.raw/*1.38*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Wed Feb 12 21:16:28 CET 2014
+                    DATE: Wed Feb 12 21:17:34 CET 2014
                     SOURCE: C:/Users/Nicolas/Documents/playProject/app/views/index.scala.html
-                    HASH: d7f067e2bc43d7c6ae9098e6493a353dbab8dcc3
-                    MATRIX: 791->1|937->37|965->56|1001->58|1053->102|1092->104|1185->163|1262->232|1301->234|1356->253|1512->387|1567->406|1730->547|1897->679|1983->744|2060->786|2155->860|2228->898|2323->972|2392->1006|2490->1083|2558->1116|2657->1194|2726->1228|2815->1296|2884->1330|2974->1399|3043->1433|3134->1503|3299->1633|3386->1699|3464->1741|3561->1816|3635->1854|3732->1929|3802->1963|3902->2041|3971->2074|4072->2153|4142->2187|4233->2256|4303->2290|4395->2360|4465->2394|4558->2465|4747->2622
-                    LINES: 26->1|30->1|32->4|33->5|33->5|33->5|37->9|37->9|37->9|39->11|42->14|44->16|47->19|55->27|58->30|62->34|66->38|70->42|74->46|78->50|82->54|85->57|89->61|93->65|97->69|101->73|105->77|109->81|113->85|123->95|126->98|130->102|134->106|138->110|142->114|146->118|150->122|153->125|157->129|161->133|165->137|169->141|173->145|177->149|181->153|192->164
+                    HASH: 9490738a65e957dd1537dfc934501a26e9170096
+                    MATRIX: 791->1|937->37|965->56|1001->58|1053->102|1092->104|1185->163|1262->232|1301->234|1477->375|1563->440|1640->482|1735->556|1808->594|1903->668|1972->702|2070->779|2138->812|2237->890|2306->924|2395->992|2464->1026|2554->1095|2623->1129|2714->1199|2879->1329|2966->1395|3043->1437|3139->1512|3213->1550|3310->1625|3380->1659|3480->1737|3549->1770|3650->1849|3720->1883|3811->1952|3881->1986|3973->2056|4043->2090|4136->2161|4325->2318
+                    LINES: 26->1|30->1|32->4|33->5|33->5|33->5|37->9|37->9|37->9|46->18|49->21|53->25|57->29|61->33|65->37|69->41|73->45|76->48|80->52|84->56|88->60|92->64|96->68|100->72|104->76|114->86|117->89|121->93|125->97|129->101|133->105|137->109|141->113|144->116|148->120|152->124|156->128|160->132|164->136|168->140|172->144|183->155
                     -- GENERATED --
                 */
             
