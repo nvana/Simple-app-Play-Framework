@@ -61,13 +61,8 @@ Seq[Any](format.raw/*1.32*/("""
 }
                 /*
                     -- GENERATED --
-<<<<<<< HEAD
-                    DATE: Wed Feb 12 21:16:28 CET 2014
+                    DATE: Wed Feb 12 22:13:00 CET 2014
                     SOURCE: C:/Users/Nicolas/Documents/playProject/app/views/main.scala.html
-=======
-                    DATE: Wed Feb 12 21:28:14 CET 2014
-                    SOURCE: C:/Users/Oriana/Documents/playProject/app/views/main.scala.html
->>>>>>> 6a57673923a2a6bf76cabf02457638b20a8a10b9
                     HASH: 47585734cb8c29abc27709e2c85fc706e0e8b820
                     MATRIX: 778->1|902->31|990->84|1016->89|1113->151|1127->157|1182->191|1278->252|1292->258|1345->290|1406->315|1421->321|1488->366|1630->472|1645->478|1685->496|1724->499|1751->504|1850->567|1879->574
                     LINES: 26->1|29->1|35->7|35->7|36->8|36->8|36->8|37->9|37->9|37->9|38->10|38->10|38->10|43->15|43->15|43->15|43->15|43->15|47->19|47->19

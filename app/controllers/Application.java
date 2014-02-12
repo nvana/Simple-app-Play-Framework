@@ -13,19 +13,18 @@ public class Application extends Controller {
      * Describes the hello form.
      */
     public static class Hello {
-<<<<<<< HEAD
 
          @Required public Integer as;
 
 
          @Required public Integer dix;
         @Required public Integer roi;
-=======
+
          @Required public Integer as;
         
          @Required public Integer dix;
         public Integer roi;
->>>>>>> 6a57673923a2a6bf76cabf02457638b20a8a10b9
+
         public Integer dame;
          public Integer valet;
          public Integer neuf;
@@ -43,7 +42,7 @@ public class Application extends Controller {
         return ok(
             index.render(form(Hello.class))
         );
-<<<<<<< HEAD
+
     }
   
     /**
@@ -62,7 +61,7 @@ public class Application extends Controller {
         }
     }
   
-=======
+
     }
   
     /**
@@ -80,5 +79,5 @@ public class Application extends Controller {
         }
     }
   
->>>>>>> 6a57673923a2a6bf76cabf02457638b20a8a10b9
+
 }
