@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+This is a very basic application that demonstrates Play fundamentals:
+
+- Writing controllers and actions.
+- Routing and reverse routing.
+- Linking to public assets.
+- Using the template engine.
+- Handling forms with validation.
+=======
 ﻿Voici une application qui illustre l'utilisation de formulaires
 dans le cadre d'un convertisseur en ligne entre nombres décimaux
 et nombres romains.
@@ -5,3 +14,4 @@ et nombres romains.
 12/02/2014 16h39 : J'ai créer le formulaire, reste à faire l'implémentation des fonctions.
 
 Test de partage
+>>>>>>> 4bdf93df4e2c4c817951101236ef41e6376bbcba

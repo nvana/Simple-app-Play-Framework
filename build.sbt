@@ -1,6 +1,6 @@
 import play.Project._
 
-name := "forms"
+name := "helloworld"
 
 version := "1.0"
 
