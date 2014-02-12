@@ -13,25 +13,23 @@ public class Application extends Controller {
      * Describes the hello form.
      */
     public static class Hello {
-         @Required public Integer as;
-        
-         @Required public Integer dix;
-        public Integer roi;
-        public Integer dame;
-         public Integer valet;
-         public Integer neuf;
-         public Integer huit;
-         public Integer sept; 
-
+           @Min(0) @Max(3) public Integer dix;
+           @Min(0) @Max(3)public Integer  roi;
+         @Min(0) @Max(3) public Integer dame;
+          @Min(0) @Max(3) public Integer valet;
+          @Min(0) @Max(3) public Integer neuf;
+          @Min(0) @Max(3) public Integer huit;
+         @Min(0) @Max(3)  public Integer sept; 
+         @Min(0) @Max(3) public Integer as;
          /* Cartes pour l'atout */
-        @Required public Integer asA;
-         @Required public Integer dixA;
-        public Integer roiA;
-        public Integer dameA;
-         public Integer valetA;
-         public Integer neufA;
-         public Integer huitA;
-         public Integer septA; 
+         @Min(0) @Max(1) public Integer asA;
+          @Min(0) @Max(1) public Integer dixA;
+         @Min(0) @Max(1)public Integer roiA;
+         @Min(0) @Max(1)public Integer dameA;
+         @Min(0) @Max(1) public Integer valetA;
+         @Min(0) @Max(1) public Integer neufA;
+         @Min(0) @Max(1) public Integer huitA;
+         @Min(0) @Max(1) public Integer septA; 
         
     } 
     

@@ -2,9 +2,9 @@
 
 @import helper._
 
-@main(title = "The 'helloworld' application") {
+@main(title = "Application de calcul de points à la belotte") {
     
-    <h1>Configure your 'Hello world':</h1>
+    <h1>Calcul de points belotte:</h1>
     
     @form(action = routes.Application.sayHello, args = 'id -> "helloform") {
         
@@ -23,7 +23,7 @@
             <td>
 
     @inputText(
-        helloForm("Dix"),
+        helloForm("dix"),
         '_label -> "Dix"
       
     )
@@ -31,7 +31,7 @@
             <td>
 
     @inputText(
-        helloForm("Roi"),
+        helloForm("roi"),
         '_label -> "Roi"
       
     )
@@ -39,14 +39,14 @@
             <td>
 
     @inputText(
-        helloForm("Dame"),
+        helloForm("dame"),
         '_label -> "Dame"
        
     )
     </td>
             <td>
     @inputText(
-        helloForm("Valet"),
+        helloForm("valet"),
         '_label -> "Valet"
       
     )
