@@ -2938,7 +2938,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.0!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.2!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2733ms :: artifacts dl 114ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2628ms :: artifacts dl 142ms[0m
 [0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT compile produced in C:\Users\Oriana\Documents\GitHub\playProject\project\target\resolution-cache\reports\default-playproject-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT runtime produced in C:\Users\Oriana\Documents\GitHub\playProject\project\target\resolution-cache\reports\default-playproject-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT test produced in C:\Users\Oriana\Documents\GitHub\playProject\project\target\resolution-cache\reports\default-playproject-build-test.xml[0m
@@ -2952,5 +2952,5 @@
 [0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT docs produced in C:\Users\Oriana\Documents\GitHub\playProject\project\target\resolution-cache\reports\default-playproject-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT pom produced in C:\Users\Oriana\Documents\GitHub\playProject\project\target\resolution-cache\reports\default-playproject-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#playproject-build;0.1-SNAPSHOT scala-tool produced in C:\Users\Oriana\Documents\GitHub\playProject\project\target\resolution-cache\reports\default-playproject-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2733ms resolve - 114ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (2628ms resolve - 142ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

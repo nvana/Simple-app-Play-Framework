@@ -1,6 +1,6 @@
 // @SOURCE:C:/Users/Oriana/Documents/GitHub/playProject/conf/routes
 // @HASH:370a5951c5f7cf62b1f0ac689e6e66412543846a
-// @DATE:Wed Feb 12 22:58:38 CET 2014
+// @DATE:Wed Feb 12 23:10:05 CET 2014
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
