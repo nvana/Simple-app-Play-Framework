@@ -24,6 +24,14 @@ public class Application extends Controller {
          public Integer sept; 
 
          /* Cartes pour l'atout */
+        @Required public Integer as;
+         @Required public Integer dix;
+        public Integer roi;
+        public Integer dame;
+         public Integer valet;
+         public Integer neuf;
+         public Integer huit;
+         public Integer sept; 
         
     } 
     
