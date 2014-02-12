@@ -1,0 +1,16 @@
+@(as: Int, dix: Int, color: String)
+
+@main("Here is the result:") {
+    
+    <ul style="color: @if(color != null) { @color } else { inherited }">
+       
+            <li>As: @as</li>
+            <li>Dix: @dix</li>
+        
+    </ul>
+    
+    <p class="buttons">
+        <a href="@routes.Application.index">Back to the form</a>
+    </p>
+    
+}
