@@ -1,7 +1,10 @@
+<h1>Simple application CRUD based on Play framework (Java & Scala)</h1>
+
 This is a very basic application that demonstrates Play fundamentals:
 
-- Writing controllers and actions.
-- Routing and reverse routing.
-- Linking to public assets.
-- Using the template engine.
-- Handling forms with validation.
+<ul>
+<li>Writing controllers and actions.</li>
+<li>Linking to public assets.</li>
+<li>Using the template engine.</li>
+<li>Handling forms with validation.</li>
+</ul>
